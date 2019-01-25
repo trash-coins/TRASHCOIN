@@ -1,3 +1,5 @@
+//node style code can't be used in the browser
+//replace request with fetch
 const request = require('superagent');
 
 const getCurrentPrice = currency => {
